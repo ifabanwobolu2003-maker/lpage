@@ -4,7 +4,7 @@ import brand2 from "../assets/thub.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col mt-6 lg:mt-20 items-center">
+    <div id="home" className="flex flex-col mt-6 lg:mt-20 items-center">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl pb-8 text-center font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500"> 
         The Future Tech Learning Hub
         </h1>

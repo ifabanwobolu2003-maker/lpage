@@ -11,6 +11,7 @@ import user5 from "../assets/tife.jpeg";
 import user6 from "../assets/tosin.jpeg";
 
 export const navItems = [
+  { label: "Home", href: "#home" },
   { label: "Features", href: "#features" },
   { label: "CTA", href: "#cta" },
   { label: "Pricing", href: "#pricing" },

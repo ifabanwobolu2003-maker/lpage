@@ -14,8 +14,8 @@ const HeroSection = () => {
            {" "} THUB helps developers and creators build real-world tech skills through hands-on projects, expert mentorship, and a vibrant community. Join us and turn your ideas into reality.
         </span>
         </p>
-        <div className="flex justify-center my-10">
-            <a href="#" className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-md text-lg">
+        <div id="pricing" className="flex justify-center my-10">
+            <a href="#pricing" className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-md text-lg">
                 Get Started
             </a>
         </div>

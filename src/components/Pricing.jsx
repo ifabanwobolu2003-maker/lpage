@@ -1,11 +1,9 @@
 import React from 'react'
 import { CheckCircle2 } from 'lucide-react'
 import { pricingOptions } from '../constants'
-import { useNavigate } from 'react-router-dom'
 
 
 const Pricing = () => {
-  const navigate = useNavigate()
   return (
     <div id="pricing" className='mt-20'>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
@@ -28,11 +26,9 @@ const Pricing = () => {
                                   </li>
                             ))}
                         </ul>
-                        <button 
-                        onClick={() => navigate('/enroll')}
-                        className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-md text-lg">
-                            Choose Plan
-                        </button>
+                        <a href="#" className="block text-center bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+                            Get Started
+                        </a>
                     </div>
                 </div>
             ))}

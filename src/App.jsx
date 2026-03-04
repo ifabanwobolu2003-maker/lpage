@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from './components/navbar'
+import { Routes, Route } from 'react-router-dom'
+import Landing from './pages/Landing'
 import HeroSection from './components/HeroSection'
 import FeatureSection from './components/FeatureSection'
 import CTA from './components/CTA'
@@ -12,15 +14,11 @@ const App = () => {
   return (
     <>
     <Navbar />
-    <div className="max-w-7xl mx-auto pt-20 px-6">
-      <HeroSection />
-      <FeatureSection />
-      <CTA />
-      <Pricing />
-      <Enrollment />
-      <Testiomonials />
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="/enroll" element={<Enrollment />} />
+    </Routes>
       <Footer />
-    </div>
     </>
   )
 }

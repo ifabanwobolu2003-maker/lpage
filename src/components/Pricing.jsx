@@ -26,9 +26,9 @@ const Pricing = () => {
                                   </li>
                             ))}
                         </ul>
-                        <a href="#enrollment" className="block text-center bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
-                            Enroll Now
-                        </a>
+                        <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-md text-lg">
+                            Choose Plan
+                        </button>
                     </div>
                 </div>
             ))}

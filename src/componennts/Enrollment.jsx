@@ -1,6 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Enrollment = () => {
+  const navigate = useNavigate();
+
+  const handleEnrollClick = () => {
+    navigate('/enroll');
+  };
+
   return (
     <div className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">

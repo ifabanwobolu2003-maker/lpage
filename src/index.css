@@ -6,3 +6,7 @@
   font-family: 'Poppins', sans-serif; 
   color-scheme: light dark;
 }
+
+html {
+  scroll-behavior: smooth;
+}

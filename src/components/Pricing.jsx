@@ -26,8 +26,8 @@ const Pricing = () => {
                                   </li>
                             ))}
                         </ul>
-                        <a href="#" className="block text-center bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
-                            Get Started
+                        <a href="#enrollment" className="block text-center bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+                            Enroll Now
                         </a>
                     </div>
                 </div>

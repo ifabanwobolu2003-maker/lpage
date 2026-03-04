@@ -6,6 +6,7 @@ import CTA from './components/CTA'
 import Pricing from './components/Pricing'
 import Testiomonials from './components/Testiomonials'
 import Footer from './components/Footer'
+import Enrollment from './componennts/Enrollment'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <FeatureSection />
       <CTA />
       <Pricing />
+      <Enrollment />
       <Testiomonials />
       <Footer />
     </div>
